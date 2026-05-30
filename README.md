@@ -9,20 +9,11 @@ This setup will automatically:
 - Optionally disables Wi-Fi before sleep
 - Restores everything when the Mac wakes up
 
-Designed and tested on Apple Silicon Macs.
+
 
 ---
 
-## Why?
-
-My MacBooks experience unexpected battery drain during sleep due to:
-
-- Chat applications maintaining network connections
-- Bluetooth devices
-- Background services
-- Frequent DarkWake events
-
-This project automates bcs im lazy, using SleepWatcher.
+This is my first project, funny this happened bcs im lazy and my macbook is not helping.
 
 ---
 
@@ -44,15 +35,13 @@ This project automates bcs im lazy, using SleepWatcher.
 
 ---
 
-## Requirements
+## What to Install?
 
-Install Homebrew:
+**Homebrew**
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+Duh
 
-Install dependencies:
+Also these:
 
 ```bash
 brew install sleepwatcher
@@ -62,6 +51,8 @@ brew install blueutil
 
 ## Future Improvements
 
+For my lazy ahh:
+
 - Save and restore previous Bluetooth state
 - Save and restore previous Wi-Fi state
 - App configuration file
@@ -69,8 +60,5 @@ brew install blueutil
 - OneDrive support
 - VPN auto-disconnect
 
----
 
-## License
 
-MIT License
